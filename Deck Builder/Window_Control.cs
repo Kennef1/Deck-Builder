@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Text;
 using System.Windows.Forms;
+using System.IO;
 using System.Runtime.InteropServices;
 using Deck_Builder.DeckCreation;
 
@@ -16,6 +17,8 @@ namespace Deck_Builder
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+
+            Directory.CreateDirectory(Path.GetDirectoryName(Application.ExecutablePath) + @"\Decks");
 
             //create main menu handler and run it
             MainMenuHandler menu = new MainMenuHandler();

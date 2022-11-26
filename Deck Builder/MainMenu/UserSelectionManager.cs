@@ -42,7 +42,7 @@ namespace Deck_Builder.MainMenu
         public const int i_MANUAL = 8;
         public const int i_SOMETHING = 9;
         private const int OPTIONS_LENGTH = 10;
-        /* Array of valid IDs for user to interact with on screen HARDCODED
+        /* List of valid IDs for user to interact with on screen HARDCODED
                 1 - Close app 
                 2 - Back
                 3 - Create decklist 
@@ -52,7 +52,7 @@ namespace Deck_Builder.MainMenu
                 7 - Import from txt file
                 8 - Manualy enter decklist
                 9 - Something */
-        public readonly Array i_Options = Array.CreateInstance(typeof(int), OPTIONS_LENGTH);
+        private readonly Array i_Options = Array.CreateInstance(typeof(int), OPTIONS_LENGTH);
 
         //METHODS
         public void reset()

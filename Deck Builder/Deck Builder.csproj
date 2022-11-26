@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{1A5E770C-AF11-4068-8A21-DD007A626947}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <OutputType>WinExe</OutputType>
     <RootNamespace>Deck_Builder</RootNamespace>
     <AssemblyName>Deck Builder</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
@@ -39,6 +39,9 @@
     <ApplicationIcon>icon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -52,81 +55,101 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DeckCreationMenus\CreateDecklist_Menu_Handler.cs" />
-    <Compile Include="DeckCreationMenus\CreateDecklist_Menu.cs">
+    <Compile Include="DeckCreation\CreateDecklist_Menu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DeckCreationMenus\CreateDecklist_Menu.Designer.cs">
+    <Compile Include="DeckCreation\CreateDecklist_Menu.Designer.cs">
       <DependentUpon>CreateDecklist_Menu.cs</DependentUpon>
     </Compile>
-    <Compile Include="DeckCreationMenus\Delete_Menu.cs">
+    <Compile Include="DeckCreation\Delete_Menu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DeckCreationMenus\Delete_Menu.Designer.cs">
+    <Compile Include="DeckCreation\Delete_Menu.Designer.cs">
       <DependentUpon>Delete_Menu.cs</DependentUpon>
     </Compile>
-    <Compile Include="DeckCreationMenus\Delete_Menu_Handler.cs" />
-    <Compile Include="DeckCreationMenus\Import_Menu_Handler.cs" />
-    <Compile Include="DeckCreationMenus\Import_Menu.cs">
+    <Compile Include="DeckCreation\Import_Menu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DeckCreationMenus\Import_Menu.Designer.cs">
+    <Compile Include="DeckCreation\Import_Menu.Designer.cs">
       <DependentUpon>Import_Menu.cs</DependentUpon>
     </Compile>
-    <Compile Include="DeckCreationMenus\Manual_Menu_Handler.cs" />
-    <Compile Include="DeckCreationMenus\Manual_Menu.cs">
+    <Compile Include="DeckCreation\Manual_Menu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DeckCreationMenus\Manual_Menu.Designer.cs">
+    <Compile Include="DeckCreation\Manual_Menu.Designer.cs">
       <DependentUpon>Manual_Menu.cs</DependentUpon>
     </Compile>
-    <Compile Include="DeckCreationMenus\Update_Menu_Handler.cs" />
-    <Compile Include="DeckCreationMenus\Update_Menu.cs">
+    <Compile Include="DeckCreation\Update_Menu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DeckCreationMenus\Update_Menu.Designer.cs">
+    <Compile Include="DeckCreation\Update_Menu.Designer.cs">
       <DependentUpon>Update_Menu.cs</DependentUpon>
     </Compile>
-    <Compile Include="DeckCreationMenus\View_Menu.cs">
+    <Compile Include="DeckCreation\View_Menu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DeckCreationMenus\View_Menu.Designer.cs">
+    <Compile Include="DeckCreation\View_Menu.Designer.cs">
       <DependentUpon>View_Menu.cs</DependentUpon>
     </Compile>
-    <Compile Include="DeckCreationMenus\View_Menu_Handler.cs" />
     <Compile Include="MainMenu\Main_Menu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MainMenu\Main_Menu.Designer.cs">
       <DependentUpon>Main_Menu.cs</DependentUpon>
     </Compile>
-    <Compile Include="MainMenu\Main_Menu_Handler.cs" />
+    <Compile Include="MTG\Commander_Prompt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MTG\Commander_Prompt.Designer.cs">
+      <DependentUpon>Commander_Prompt.cs</DependentUpon>
+    </Compile>
     <Compile Include="MTG\JSONManager.cs" />
+    <Compile Include="MTG\Loading_Screen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MTG\Loading_Screen.Designer.cs">
+      <DependentUpon>Loading_Screen.cs</DependentUpon>
+    </Compile>
     <Compile Include="MTG\MTG_Card.cs" />
     <Compile Include="MainMenu\ReturnManager.cs" />
     <Compile Include="MainMenu\UserSelectionManager.cs" />
+    <Compile Include="MTG\Deck_Name_Prompt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MTG\Deck_Name_Prompt.Designer.cs">
+      <DependentUpon>Deck_Name_Prompt.cs</DependentUpon>
+    </Compile>
     <Compile Include="Window_Control.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="DeckCreationMenus\CreateDecklist_Menu.resx">
+    <EmbeddedResource Include="DeckCreation\CreateDecklist_Menu.resx">
       <DependentUpon>CreateDecklist_Menu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DeckCreationMenus\Delete_Menu.resx">
+    <EmbeddedResource Include="DeckCreation\Delete_Menu.resx">
       <DependentUpon>Delete_Menu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DeckCreationMenus\Import_Menu.resx">
+    <EmbeddedResource Include="DeckCreation\Import_Menu.resx">
       <DependentUpon>Import_Menu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DeckCreationMenus\Manual_Menu.resx">
+    <EmbeddedResource Include="DeckCreation\Manual_Menu.resx">
       <DependentUpon>Manual_Menu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DeckCreationMenus\Update_Menu.resx">
+    <EmbeddedResource Include="DeckCreation\Update_Menu.resx">
       <DependentUpon>Update_Menu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DeckCreationMenus\View_Menu.resx">
+    <EmbeddedResource Include="DeckCreation\View_Menu.resx">
       <DependentUpon>View_Menu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainMenu\Main_Menu.resx">
       <DependentUpon>Main_Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MTG\Commander_Prompt.resx">
+      <DependentUpon>Commander_Prompt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MTG\Loading_Screen.resx">
+      <DependentUpon>Loading_Screen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MTG\Deck_Name_Prompt.resx">
+      <DependentUpon>Deck_Name_Prompt.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -136,7 +159,9 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -152,6 +177,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
+    <None Include="Resources\mmm.PNG" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

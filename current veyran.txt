@@ -1,0 +1,86 @@
+1 Aetherflux Reservoir
+1 Anticipate
+1 Arcane Signet
+1 Archmage Emeritus
+1 Birgi, God of Storytelling // Harnfel, Horn of Bounty
+1 Bonus Round
+1 Brain Freeze
+1 Cackling Counterpart
+1 Capsize
+1 Cascade Bluffs
+1 Chrome Mox
+1 City of Brass
+1 Command Tower
+1 Commune with Lava
+1 Expressive Iteration
+1 Eyes of the Watcher
+1 Faithless Looting
+1 Fellwar Stone
+1 Fierce Guardianship
+1 Flooded Strand
+1 Force of Will
+1 Frantic Search
+1 Frostboil Snarl
+1 Gamble
+1 Grapeshot
+1 Grinning Ignus
+1 Harmonic Prodigy
+1 Haze of Rage
+1 Imperial Recruiter
+1 Impulse
+1 Introduction to Prophecy
+10 Island
+1 Izzet Signet
+1 Jeska's Will
+1 Jeweled Lotus
+1 Mana Crypt
+1 Mana Drain
+1 Mana Short
+1 Mana Vapors
+1 Mana Web
+1 Memory Crystal
+1 Merchant Scroll
+1 Misty Rainforest
+7 Mountain
+1 Mystic Speculation
+1 Mystical Tutor
+1 Narset, Parter of Veils
+1 Negate
+1 Pact of Negation
+1 Past in Flames
+1 Peer Through Depths
+1 Polluted Delta
+1 Ponder
+1 Precognition Field
+1 Preordain
+1 Pyroblast
+1 Quasiduplicate
+1 Reckless Impulse
+1 Reiterate
+1 Reset
+1 Reverberate
+1 Ruby Medallion
+1 Runaway Steam-Kin
+1 Sapphire Medallion
+1 Scalding Tarn
+1 Scour All Possibilities
+1 See the Truth
+1 Seize the Spoils
+1 Sentinel Tower
+1 Shattering Pulse
+1 Shimmer of Possibility
+1 Snap
+1 Sol Ring
+1 Steam Vents
+1 Storm-Kiln Artist
+1 Strike It Rich
+1 Swiftfoot Boots
+1 Talisman of Creativity
+1 Trail of Evidence
+1 Training Center
+1 Treasonous Ogre
+1 Veyran, Voice of Duality
+1 Volcanic Island
+1 Wheel of Fortune
+1 Windfall
+

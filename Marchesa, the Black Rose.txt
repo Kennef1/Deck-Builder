@@ -1,0 +1,107 @@
+1 Abrade
+1 lishagdflahbflhgbldfsghv
+1 Act of Aggression
+1 Ambition's Cost
+1 Arcane Signet
+1 Ashnod's Altar
+1 This Does Not Exist
+1 This Does Not Exist
+1 This Does Not Exist
+1 Badlands
+1 Baleful Strix
+1 Bastion of Remembrance
+1 Blasphemous Act
+1 Blighted Agent
+1 Bloodflow Connoisseur
+1 Bloodstained Mire
+1 Brainstorm
+1 Captivating Crew
+1 Command Tower
+1 Counterspell
+1 Crumbling Necropolis
+1 Cytoplast Manipulator
+1 Dack's Duplicate
+1 Dark Tutelage
+1 Demonic Tutor
+1 Diabolic Intent
+1 Dimir Signet
+1 Dockside Extortionist
+1 Drana, Liberator of Malakir
+1 Falkenrath Aristocrat
+1 Feed the Swarm
+1 Fire Covenant
+1 Flayer of the Hatebound
+1 Flusterstorm
+1 Geyadrone Dihada
+1 Glen Elendra Archmage
+1 Goblin Bombardment
+1 Grim Haruspex
+1 Immersturm Predator
+1 Imperial Recruiter
+4 Island
+1 Izzet Signet
+1 Kess, Dissident Mage
+1 Kiki-Jiki, Mirror Breaker
+1 Luxury Suite
+1 Marchesa, the Black Rose
+1 Mark of Mutiny
+1 Massacre Girl
+1 Metallic Mimic
+1 Morphic Pool
+7 Mountain
+1 Mystic Remora
+1 Necropotence
+1 Negate
+1 Path of Ancestry
+1 Phyrexian Altar
+1 Phyrexian Arena
+1 Polluted Delta
+1 Pongify
+1 Preordain
+1 Prismatic Lens
+1 Puppeteer Clique
+1 Razaketh, the Foulblooded
+1 Read the Bones
+1 Red Elemental Blast
+1 Sage of Fables
+1 Scalding Tarn
+1 Shimmerdrift Vale
+1 Shivan Reef
+1 Siren Stormtamer
+1 Sneak Attack
+1 Sol Ring
+1 Sulfurous Springs
+7 Swamp
+1 Swan Song
+1 Talisman of Creativity
+1 Talisman of Dominance
+1 Talisman of Indulgence
+1 Terror of the Peaks
+1 Thought Vessel
+1 Toxic Deluge
+1 Underground River
+1 Underground Sea
+1 Unspeakable Symbol
+1 Vampiric Tutor
+1 Viscera Seer
+1 Volcanic Island
+1 Yahenni, Undying Partisan
+1 Zealous Conscripts
+
+
+Maybeboard
+1 Chaos Warp
+1 Dauthi Voidwalker
+1 Disciple of Bolas
+
+Trash
+1 Evolving Wilds
+1 Fallen Ideal
+1 Feign Death
+1 Juri, Master of the Revue
+1 Kari Zev's Expertise
+1 Nighthawk Scavenger
+1 Skullclamp
+1 Stalking Vengeance
+1 Terramorphic Expanse
+
