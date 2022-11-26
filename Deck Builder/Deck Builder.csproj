@@ -61,11 +61,11 @@
     <Compile Include="DeckCreation\Menu_CreateDecklist.Designer.cs">
       <DependentUpon>Menu_CreateDecklist.cs</DependentUpon>
     </Compile>
-    <Compile Include="DeckCreation\Delete_Menu.cs">
+    <Compile Include="DeckCreation\Menu_Delete.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DeckCreation\Delete_Menu.Designer.cs">
-      <DependentUpon>Delete_Menu.cs</DependentUpon>
+    <Compile Include="DeckCreation\Menu_Delete.Designer.cs">
+      <DependentUpon>Menu_Delete.cs</DependentUpon>
     </Compile>
     <Compile Include="DeckCreation\Import_Menu.cs">
       <SubType>Form</SubType>
@@ -124,8 +124,8 @@
     <EmbeddedResource Include="DeckCreation\Menu_CreateDecklist.resx">
       <DependentUpon>Menu_CreateDecklist.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DeckCreation\Delete_Menu.resx">
-      <DependentUpon>Delete_Menu.cs</DependentUpon>
+    <EmbeddedResource Include="DeckCreation\Menu_Delete.resx">
+      <DependentUpon>Menu_Delete.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DeckCreation\Import_Menu.resx">
       <DependentUpon>Import_Menu.cs</DependentUpon>

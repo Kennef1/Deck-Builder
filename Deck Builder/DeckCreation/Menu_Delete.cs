@@ -11,10 +11,10 @@ using Deck_Builder.MainMenu;
 
 namespace Deck_Builder.DeckCreation
 {
-    public partial class Delete_Menu : Form
+    public partial class Menu_Delete : Form
     {
         #region Constructors
-        public Delete_Menu(Delete_Menu_Handler Parent)
+        public Menu_Delete(Delete_Menu_Handler Parent)
         {
             InitializeComponent();
             i_Selection = -1;
@@ -40,7 +40,7 @@ namespace Deck_Builder.DeckCreation
         private void Button_Back_Click(object sender, EventArgs e)
         {
             i_Selection = UserSelectionManager.i_BACK;
-            if (_parent.update_state(i_Selection))
+            if (_parent.UpdateState(i_Selection))
                 Close();
         }
         #endregion Methods
@@ -52,66 +52,66 @@ namespace Deck_Builder.DeckCreation
         #region Constructors
         public Delete_Menu_Handler()
         {
-            return_manager = new ReturnManager();
-            selection_manager = new UserSelectionManager();
+            returnManager = new ReturnManager();
+            selectionManager = new UserSelectionManager();
         }
         #endregion Constructors
 
         #region Members
         /* Create delete menu form */
-        private Delete_Menu form_delete_menu;
+        private Menu_Delete form_DeleteMenu;
         /* Manager for detecting if app was force closed using the X button */
-        private ReturnManager return_manager;
+        private ReturnManager returnManager;
         /* Manager for handling user input to forms */
-        public UserSelectionManager selection_manager;
+        public UserSelectionManager selectionManager;
         #endregion Members
 
         #region Methods
-        public int run()
+        public int Run()
         {
-            while (check_exit())
+            while (CheckExit())
             {
-                initialise();
+                Initialise();
 
                 //check for user input to open next level of windows ONLY
-                switch (selection_manager.i_Menu_Option)
+                switch (selectionManager.i_Menu_Option)
                 {
                     case UserSelectionManager.i_BACK:
-                        return_manager.set_status(ReturnManager.USER_EXIT);
+                        returnManager.set_status(ReturnManager.USER_EXIT);
                         break;
                     case UserSelectionManager.i_CLOSE:
-                        return_manager.set_status(ReturnManager.FORCE_EXIT);
+                        returnManager.set_status(ReturnManager.FORCE_EXIT);
                         break;
                     default: break;
                 }
-                if (return_manager.is_forced_exit())
+                if (returnManager.is_forced_exit())
                     return ReturnManager.FORCE_EXIT;
             }
 
             return ReturnManager.USER_EXIT;
         }
 
-        public bool update_state(int input)
+        public bool UpdateState(int input)
         {
-            selection_manager.update(input);
-            return selection_manager.is_valid_option(input);
+            selectionManager.update(input);
+            return selectionManager.is_valid_option(input);
         }
 
-        private void initialise()
+        private void Initialise()
         {
             //this method resets the key variables for the run() loop to operate
             /* reset return status in case it gets set somewhere */
-            return_manager.reset();
-            selection_manager.reset();
-            form_delete_menu = new Delete_Menu(this);
+            returnManager.reset();
+            selectionManager.reset();
+            form_DeleteMenu = new Menu_Delete(this);
             //run the form after creating it
-            form_delete_menu.ShowDialog();
+            form_DeleteMenu.ShowDialog();
         }
 
-        private bool check_exit()
+        private bool CheckExit()
         {
-            return selection_manager.i_Menu_Option != UserSelectionManager.i_BACK
-                && !return_manager.is_objective_exit();
+            return selectionManager.i_Menu_Option != UserSelectionManager.i_BACK
+                && !returnManager.is_objective_exit();
         }
         #endregion Methods
 

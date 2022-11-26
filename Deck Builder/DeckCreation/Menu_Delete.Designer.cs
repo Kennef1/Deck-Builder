@@ -1,6 +1,6 @@
 ﻿namespace Deck_Builder.DeckCreation
 {
-    partial class Delete_Menu
+    partial class Menu_Delete
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Delete_Menu));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu_Delete));
             this.Button_Back = new System.Windows.Forms.Button();
             this.Label_Placeholder = new System.Windows.Forms.Label();
             this.SuspendLayout();
