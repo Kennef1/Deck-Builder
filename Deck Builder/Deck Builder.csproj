@@ -55,11 +55,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DeckCreation\CreateDecklist_Menu.cs">
+    <Compile Include="DeckCreation\Menu_CreateDecklist.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DeckCreation\CreateDecklist_Menu.Designer.cs">
-      <DependentUpon>CreateDecklist_Menu.cs</DependentUpon>
+    <Compile Include="DeckCreation\Menu_CreateDecklist.Designer.cs">
+      <DependentUpon>Menu_CreateDecklist.cs</DependentUpon>
     </Compile>
     <Compile Include="DeckCreation\Delete_Menu.cs">
       <SubType>Form</SubType>
@@ -121,8 +121,8 @@
     </Compile>
     <Compile Include="Window_Control.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="DeckCreation\CreateDecklist_Menu.resx">
-      <DependentUpon>CreateDecklist_Menu.cs</DependentUpon>
+    <EmbeddedResource Include="DeckCreation\Menu_CreateDecklist.resx">
+      <DependentUpon>Menu_CreateDecklist.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DeckCreation\Delete_Menu.resx">
       <DependentUpon>Delete_Menu.cs</DependentUpon>

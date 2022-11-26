@@ -120,7 +120,7 @@ namespace Deck_Builder
                     case UserSelectionManager.i_CREATE:
                         CreateDecklist_Menu_Handler create_menu = new CreateDecklist_Menu_Handler();
                         //listen for any non-zero return statuses
-                        return_manager.set_status(create_menu.run());
+                        return_manager.set_status(create_menu.Run());
                         break;
                     case UserSelectionManager.i_UPDATE:
                         Update_Menu_Handler update_menu = new Update_Menu_Handler();

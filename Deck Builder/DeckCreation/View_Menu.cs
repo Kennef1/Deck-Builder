@@ -96,7 +96,7 @@ namespace Deck_Builder.DeckCreation
         public UserSelectionManager selection_manager;
         #endregion Members
 
-        #region Members
+        #region Methods
         public int run()
         {
             while (check_exit())
@@ -140,11 +140,10 @@ namespace Deck_Builder.DeckCreation
 
         private bool check_exit()
         {
-
             return selection_manager.i_Menu_Option != UserSelectionManager.i_BACK
                 && !return_manager.is_objective_exit();
         }
-        #endregion Members
+        #endregion Methods
 
     }
 }

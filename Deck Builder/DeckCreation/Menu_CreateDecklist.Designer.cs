@@ -1,6 +1,6 @@
 ﻿namespace Deck_Builder.DeckCreation
 {
-    partial class CreateDecklist_Menu
+    partial class Menu_CreateDecklist
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CreateDecklist_Menu));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu_CreateDecklist));
             this.Button_Import = new System.Windows.Forms.Button();
             this.Button_Manual = new System.Windows.Forms.Button();
             this.Button_Back = new System.Windows.Forms.Button();
@@ -90,7 +90,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Create Decklist";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.CreateDecklist_Menu_FormClosing);
-            this.Load += new System.EventHandler(this.CreateDecklist_Menu_Load);
+            this.Load += new System.EventHandler(this.Menu_CreateDecklist_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
