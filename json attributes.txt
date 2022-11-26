@@ -1,0 +1,15 @@
+MTG CARD JSON ATTRIBUTES:
+id (dunno what id this is, maybe proprietary)
+oracle_id ( "" )
+mtgo_id ( MTG Online id )
+Name ( string )
+Mana Cost ( {int} )
+CMC ( float, idk what the difference is )
+Card Type ( string or "Creature - Creature_Type" )
+Oracle Text ( string )
+   if creature then
+Power ( int ) + Toughness ( int )
+Colours ( {W/P,U,B,R,G,X} or {W/R} )
+Colour Identity ( [W,U,B,R,G] )
+Keywords ( string, string )
+Legalities ( sub structure of each format )
