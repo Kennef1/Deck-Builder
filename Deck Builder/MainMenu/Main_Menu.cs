@@ -132,7 +132,7 @@ namespace Deck_Builder
                         break;
                     case UserSelectionManager.i_DELETE:
                         Delete_Menu_Handler delete_menu = new Delete_Menu_Handler();
-                        return_manager.set_status(delete_menu.run());
+                        return_manager.set_status(delete_menu.Run());
                         break;
 
                     case UserSelectionManager.i_CLOSE:
